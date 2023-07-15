@@ -15,7 +15,9 @@ This program simulates a customer-clerk system where customers interact with cle
 1. Compile the program using the provided makefile:
    ```shell
    $ make
-2. Run the program with the following command-line arguments: ./customer_clerk NZ NU TZ TU F
+2. Run the program with the following command-line arguments:
+   ```shell
+   $ ./customer_clerk NZ NU TZ TU F
 
   NZ: Number of customer processes to create.
   NU: Number of clerk processes to create.
